@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ProfileCard from "../components/ProfileCard";
 
 export default function Home() {
   return (
@@ -7,12 +8,9 @@ export default function Home() {
         <title>Next || Tailwind App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <h1 className="text-red-500 text-6xl bg-black">
-          My First Tailwind App
-        </h1>
-      </main>
+      <div className="mt-0 p-0">
+        <ProfileCard />
+      </div>
     </div>
   );
 }
