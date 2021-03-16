@@ -5,6 +5,13 @@ body{
   background-position: -70% 240%, 160% -170%;
 }
 
+@media(max-width: 640px){
+  body{
+    background-size: 500px, 500px;
+    background-position: 300% -50% , -200% 150% ;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

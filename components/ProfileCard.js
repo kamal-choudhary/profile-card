@@ -3,13 +3,11 @@ import React from "react";
 const ProfileCard = () => {
   return (
     <div className="flex flex-col items-center w-88 h-96 text-lg m-auto my-48 rounded-lg shadow bg-white">
-      {/* <div className="h-32 bg-green-500 rounded-full"> */}
       <img
         src="/static/images/bg-pattern-card.svg"
-        className="rounded-lg rounded-b-none"
+        className="rounded-lg rounded-b-none w-88"
         alt="Victor Image"
       />
-      {/* </div> */}
       <img
         src="/static/images/image-victor.jpg"
         className="rounded-full items-center -mt-14 border-4 ring-inset"
