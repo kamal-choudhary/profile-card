@@ -1,15 +1,8 @@
 body{
   background-image: url('../public/static//images//bg-pattern-top.svg'), url('../public/static//images//bg-pattern-bottom.svg');
   background-color: hsl(185, 75%, 39%);
-  background-repeat: no-repeat, no-repeat;
-  background-position: -70% 240%, 160% -170%;
-}
-
-@media(max-width: 640px){
-  body{
-    background-size: 500px, 500px;
-    background-position: 300% -50% , -200% 150% ;
-  }
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 
 @tailwind base;
