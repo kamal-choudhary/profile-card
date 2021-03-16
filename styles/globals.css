@@ -1,4 +1,10 @@
-@tailwind base;
+body{
+  background-image: url('../public/static//images//bg-pattern-top.svg'), url('../public/static//images//bg-pattern-bottom.svg');
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -70% 240%, 160% -170%;
+}
 
+@tailwind base;
 @tailwind components;
 @tailwind utilities;

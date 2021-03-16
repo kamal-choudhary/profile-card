@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProfileCard = (props) => {
+const ProfileCard = () => {
   return (
     <div className="flex flex-col items-center w-88 h-96 text-lg m-auto my-48 rounded-lg shadow bg-white">
       {/* <div className="h-32 bg-green-500 rounded-full"> */}
@@ -12,7 +12,7 @@ const ProfileCard = (props) => {
       {/* </div> */}
       <img
         src="/static/images/image-victor.jpg"
-        className="rounded-full items-center -mt-8 border-4 ring-inset"
+        className="rounded-full items-center -mt-14 border-4 ring-inset"
         alt="Victor Image"
       />
       <div className="bg-white  mt-8 ">
@@ -22,7 +22,7 @@ const ProfileCard = (props) => {
         <p className="text-gray-500 ml-8">London</p>
       </div>
 
-      <div className="w-88 border-t-2 flex flex-row justify-between mt-4">
+      <div className="w-88 border-t-2 flex flex-row justify-between mt-9">
         <div className="px-4 py-2">
           <p className="font-bold">80K</p>
           <p>Followers</p>
